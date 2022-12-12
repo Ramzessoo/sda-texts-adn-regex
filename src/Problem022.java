@@ -1,6 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
-
+//Szyfr cezara
 public class Problem022 {
     private static String encrypt(String text, int key) {
         text = text.toUpperCase();
