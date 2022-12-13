@@ -7,6 +7,9 @@ public class RegexTester {
 
     private Pattern pattern;
 
+    public RegexTester(String patternAsString) {
+        this.pattern = Pattern.compile(patternAsString);
+    }
 
     public void validate(String text) {
         Matcher matcher = pattern.matcher(text);
@@ -16,5 +19,5 @@ public class RegexTester {
             System.out.println("Fałsz dla tekstu: " + text);
         }
     }
-}
 
+}
