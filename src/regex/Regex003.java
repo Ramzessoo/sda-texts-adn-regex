@@ -12,6 +12,6 @@ public class Regex003 {
         tester.validate("715332123");
         tester.validate("+48715332123");
         tester.validate("712123");
-        tester.validate("484848412342421");
+        tester.validate("+48+48+48412342421");
     }
 }
